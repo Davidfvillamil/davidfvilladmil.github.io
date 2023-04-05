@@ -1,7 +1,19 @@
-#foto{
-    height: 300px;
-    width: 300px;
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.foto{
+    display: flex;
+    justify-content: center;
+}
+.foto img{
+    width: 70%;
+    height: 100vh;
+    border-radius: 8px;
 }
 .titulo{
     color: brown;
+    text-align: center;
 }
